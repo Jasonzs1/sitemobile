@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+}
+nav{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  padding-left: 0.5em;
+  font-size: 45px;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+body{
+  position: relative;
+  background-color: black;
+  font-family:"Balsamiq Sans" ,cursive;
+}
+.body1{
+  color: white;
+  margin-left: 10px;
+}
+video{
+  position: relative;
+}
+.button1{
+  position: absolute;
+  font-size: 24px;
+  width: 304.5px;
+  font-family: "Balsamiq Sans" ,cursive;
+  padding: 0.25em 0.5em;
+  background-color: black;
+  color: white;
+  border-radius: 025em;
+  letter-spacing: 1px;
+  color:   #0505fa;
+  border-color:  #0505fa;
+}
+.button1:focus,
+.button1:hover{
+  animation: leftsideanimate1 7s;
+}
+.button1:active{
+  transform: scale(0.96);
+}
+@keyframes leftsideanimate1 {
+  0% {
+    box-shadow: inset 6.5em 0 0 0 #0505fa;
+    color: black;
+  }
+}
+.clor1{
+  color: white;
+}
+.bar2{
+  position: relative;
+  background-color: #2F4F4F;
+  color: white;
+  width: 100%;
+  height: 60px;
+  padding-left: 0.5em;
+  font-size: 20px;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
